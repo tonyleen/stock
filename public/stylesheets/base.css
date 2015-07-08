@@ -1,0 +1,49 @@
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td {
+    margin: 0;
+    padding:0;
+}
+body {font:12px "宋体",Arial,Helvetica,sans-serif;color:#4f5559;}
+a {
+    text-decoration:none;
+    color:#4f5559;
+    outline:none;
+}
+a:hover {
+    text-decoration:none;
+}
+#box {
+    width: 920px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    position: relative;
+    overflow: hidden;
+}
+.move {
+    transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    position: absolute;
+    padding: 3px 0 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'Microsoft YaHei','LiHei Pro',SimHei;
+    font-size: 25px;
+    text-decoration: none;
+    text-shadow: -1px 0 #000,0 1px #000,1px 0 #000,0 -1px #000;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    text-size-adjust: none;
+    line-height: 100%;
+    letter-spacing: 0;
+    word-break: keep-all;
+    white-space: pre;
+    text-align: center;
+}
+.move {
+    -webkit-transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+}
+
+
+
